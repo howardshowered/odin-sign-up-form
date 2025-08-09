@@ -1,0 +1,65 @@
+/* ===== RESET & BASE STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    background-color: rgb(64, 121, 196);
+    color: black;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 100vh;
+    
+}
+
+h2 {
+    font-size: clamp(18px, 3vw, 28px);
+}
+
+.hero {
+    align-self: center;
+    padding: 20px;
+
+}
+
+img {
+    height: 90vh;
+}
+
+.right-box {
+    padding: 20px;
+    margin-top: 125px;
+    align-self: flex-start;
+    max-width: 460px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+.form-row {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row input {
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.form-row label {
+   font-weight: bold;
+   color:black;
+   font-size: 20px;
+}
+
+button {
+    color: white;
+    background-color: rgb(64, 121, 196);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
