@@ -18,14 +18,22 @@ h2 {
     font-size: clamp(18px, 3vw, 28px);
 }
 
-.hero {
-    align-self: center;
+
+
+ .hero{
+    height: 90vh;
+    z-index: 0;
     padding: 20px;
 
 }
 
-img {
-    height: 90vh;
+.logo {
+  position: absolute;
+  top: 12rem;
+  opacity: 80%;
+  left: 20rem;
+  width: 15rem;
+  z-index: 1;
 }
 
 .right-box {
@@ -62,4 +70,8 @@ button {
     padding: 5px;
     border-radius: 5px;
     margin-left: 20px;
+}
+
+.form-row input:invalid {
+    border: red solid 2px;
 }
